@@ -154,7 +154,7 @@ These companies are flagged for **additional value-oriented review**.
 
 The agent automatically generates and delivers a structured **Daily Market Intelligence Report** through Amazon SES after each scheduled execution.
 
-```text
+
 The report includes:
 
 * **Executive Market Snapshot** — Overall daily market intelligence summary across the S&P 500.
@@ -166,7 +166,7 @@ The report includes:
 * **Value Review Radar** — Companies identified for additional research based on significant daily downside movement.
 * **Agent Conclusion** — An autonomous summary of the day's most significant market movements and screening signals.
 * **Research Disclaimer** — Clearly distinguishes market screening signals from investment recommendations.
-```
+
 
 ---
 
