@@ -2,10 +2,13 @@
 
 > **An autonomous market intelligence agent that wakes up on a schedule, analyzes the S&P 500, identifies market signals, and generates daily intelligence without requiring a human to manually press Run.**
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge\&logo=python)
 ![AWS](https://img.shields.io/badge/AWS-Cloud%20Native-orange?style=for-the-badge\&logo=amazon-aws)
-![EventBridge](https://img.shields.io/badge/Amazon-EventBridge-red?style=for-the-badge)
-![Lambda](https://img.shields.io/badge/AWS-Lambda-orange?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge\&logo=python)
+![Amazon EventBridge](https://img.shields.io/badge/Amazon-EventBridge-red?style=for-the-badge)
+![AWS Lambda](https://img.shields.io/badge/AWS-Lambda-orange?style=for-the-badge)
+![Amazon S3](https://img.shields.io/badge/Amazon-S3-blue?style=for-the-badge)
+![Amazon SES](https://img.shields.io/badge/Amazon-SES-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Autonomous%20Market%20Radar-success?style=for-the-badge)
 
 ---
 
