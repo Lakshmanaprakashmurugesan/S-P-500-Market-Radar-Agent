@@ -1,6 +1,6 @@
 # 📡 S&P 500 Market Radar Agent
 
-> **An autonomous market intelligence agent that wakes up on a schedule, analyzes the S&P 500, identifies market signals, and generates daily intelligence without requiring a human to manually press Run.**
+ **An autonomous market intelligence agent that wakes up on a schedule, analyzes the S&P 500, identifies market signals, and generates daily intelligence without requiring a human to manually press Run.**
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud%20Native-orange?style=for-the-badge\&logo=amazon-aws)
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge\&logo=python)
@@ -53,13 +53,6 @@ The Market Radar analyzes the S&P 500 across:
 * 🧠 Executive market snapshot
 * 📄 Automated daily market intelligence report
 
-The agent generates market intelligence views including:
-
-* **Top 50 companies by market capitalization**
-* **Top 50 daily gainers**
-* **Top 50 daily decliners**
-* **Possible value-review candidates**
-* **Value-trap risk screening**
 
 ---
 
@@ -99,7 +92,7 @@ The **S&P 500 Market Radar Agent** is scheduled to run automatically every day a
 - 📧 **Delivery:** Automatically sends the report through Amazon SES
 - 🤖 **Operation:** Fully autonomous after deployment with no manual execution required.
 
-> > **Note:** The report is generated automatically at **7:00 AM** (via Amazon EventBridge) before the U.S. stock market opens. Therefore, it analyzes data from the **most recently completed U.S. trading session**, rather than intraday market activity.
+>  **Note:** The report is generated automatically at **7:00 AM** (via Amazon EventBridge) before the U.S. stock market opens. Therefore, it analyzes data from the **most recently completed U.S. trading session**, rather than intraday market activity.
 
 > The attached **Email Output.pdf** contains a Daily Market Intelligence Report generated automatically on **July 17, 2026, at 7:00 AM**, using market data from the **July 16, 2026 U.S. trading session**.
 
