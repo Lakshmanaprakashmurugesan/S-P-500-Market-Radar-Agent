@@ -91,16 +91,17 @@ The system does not depend on a human manually pressing **Run** for every analys
 ## 📂 Repository Structure
 
 ```text
-sp500-market-radar/
+S&P500 MARKET RADAR AGENT
 │
-├── market_radar_agent.py
-│   └── Core autonomous market intelligence engine
+├── market_radar_agent/
+│   └── Core autonomous market intelligence engine.py
 │
-├── market_radar_output.png
-│   └── Example generated market radar output
+├── market_radar_output_screenshot/
+│   ├── Amazon EventBridge Active Cron Schedule Screenshot.png
+│   ├── Amazon SES Verified Identity Screenshot.png
+│   └── Email Output.pdf
 │
 └── README.md
-    └── Project documentation
 ```
 
 ---
@@ -151,16 +152,20 @@ These companies are flagged for **additional value-oriented review**.
 
 ## 📁 Generated Outputs
 
-The agent generates structured market intelligence files:
+The agent automatically generates and delivers a structured **Daily Market Intelligence Report** through Amazon SES after each scheduled execution.
 
 ```text
-sp500_all_stocks.csv
-top_50_market_cap.csv
-top_50_daily_gainers.csv
-bottom_50_daily_losers.csv
-value_opportunities.csv
-value_trap_risk.csv
-sp500_market_radar_premium.html
+The report includes:
+
+* **Executive Market Snapshot** — Overall daily market intelligence summary across the S&P 500.
+* **Strongest Gainer** — The company with the largest positive 1-day price movement.
+* **Largest Decliner** — The company with the largest negative 1-day price movement.
+* **Risk Radar** — Sharp-decline companies flagged for additional research.
+* **Top Daily Gainers** — Ranked daily market gainers with ticker, company name, and 1-day percentage change.
+* **Top Daily Decliners** — Ranked daily market decliners with ticker, company name, and 1-day percentage change.
+* **Value Review Radar** — Companies identified for additional research based on significant daily downside movement.
+* **Agent Conclusion** — An autonomous summary of the day's most significant market movements and screening signals.
+* **Research Disclaimer** — Clearly distinguishes market screening signals from investment recommendations.
 ```
 
 ---
