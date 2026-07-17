@@ -94,7 +94,7 @@ The **S&P 500 Market Radar Agent** is scheduled to run automatically every day a
 
   **Note:** The report is generated automatically at **7:00 AM** (via Amazon EventBridge) before the U.S. stock market opens. Therefore, it analyzes data from the **most recently completed U.S. trading session**, rather than intraday market activity.
 
- The attached **Email Output.pdf** contains a Daily Market Intelligence Report generated automatically on **July 17, 2026, at 7:00 AM**, using market data from the **July 16, 2026 U.S. trading session.During the analysis window, 24 companies triggered the risk threshold criteria, and the report highlights the top 10 highest-priority signals for focused review.**
+ The attached **Email Output.pdf** contains a Daily Market Intelligence Report generated automatically on **July 17, 2026, at 7:00 AM**, using market data from the **July 16, 2026 U.S. trading session**.During the analysis window, 24 companies triggered the risk threshold criteria, and the report highlights the top 10 highest-priority signals for focused review.
 
 ---
 
