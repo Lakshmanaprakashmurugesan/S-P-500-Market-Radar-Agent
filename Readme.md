@@ -37,7 +37,7 @@ the agent is designed around an autonomous workflow:
 📄 Intelligence Report
 ```
 
-> **The system is designed to wake up, perform useful market intelligence work, and prepare the result for the user.**
+ **The system is designed to wake up, perform useful market intelligence work, and prepare the result for the user.**
 
 ---
 
@@ -92,9 +92,9 @@ The **S&P 500 Market Radar Agent** is scheduled to run automatically every day a
 - 📧 **Delivery:** Automatically sends the report through Amazon SES
 - 🤖 **Operation:** Fully autonomous after deployment with no manual execution required.
 
->  **Note:** The report is generated automatically at **7:00 AM** (via Amazon EventBridge) before the U.S. stock market opens. Therefore, it analyzes data from the **most recently completed U.S. trading session**, rather than intraday market activity.
+  **Note:** The report is generated automatically at **7:00 AM** (via Amazon EventBridge) before the U.S. stock market opens. Therefore, it analyzes data from the **most recently completed U.S. trading session**, rather than intraday market activity.
 
-> The attached **Email Output.pdf** contains a Daily Market Intelligence Report generated automatically on **July 17, 2026, at 7:00 AM**, using market data from the **July 16, 2026 U.S. trading session**.
+ The attached **Email Output.pdf** contains a Daily Market Intelligence Report generated automatically on **July 17, 2026, at 7:00 AM**, using market data from the **July 16, 2026 U.S. trading session**.
 
 ---
 
@@ -156,7 +156,7 @@ Valuation Signals
 
 These companies are flagged for **additional value-oriented review**.
 
-> ⚠️ A radar signal is a screening signal, not an investment recommendation.
+ ⚠️ A radar signal is a screening signal, not an investment recommendation.
 
 ---
 
@@ -197,7 +197,7 @@ Most market scripts wait for a human to start them.
 
 The **S&P 500 Market Radar Agent** is designed around a different model:
 
-> **The agent wakes up. The agent analyzes. The agent prepares the intelligence.**
+ **The agent wakes up. The agent analyzes. The agent prepares the intelligence.**
 
 This project demonstrates the core concept of an **always-on autonomous agent** applied to market intelligence.
 
