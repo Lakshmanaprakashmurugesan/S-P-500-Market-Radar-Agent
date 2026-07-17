@@ -6,7 +6,6 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge\&logo=python)
 ![Amazon EventBridge](https://img.shields.io/badge/Amazon-EventBridge-red?style=for-the-badge)
 ![AWS Lambda](https://img.shields.io/badge/AWS-Lambda-orange?style=for-the-badge)
-![Amazon S3](https://img.shields.io/badge/Amazon-S3-blue?style=for-the-badge)
 ![Amazon SES](https://img.shields.io/badge/Amazon-SES-green?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Autonomous%20Market%20Radar-success?style=for-the-badge)
 
@@ -47,12 +46,12 @@ the agent is designed around an autonomous workflow:
 The Market Radar analyzes the S&P 500 across:
 
 * 📈 Daily price momentum
-* 📉 Significant daily declines
-* 🏆 Market capitalization
-* 💰 P/E valuation
-* 📊 Revenue growth
-* 📈 Earnings growth
-* 💵 Free cash flow
+* 📉 Significant daily price declines
+* 🚩 Risk-review candidates
+* 📊 Top daily gainers
+* 📉 Top daily decliners
+* 🧠 Executive market snapshot
+* 📄 Automated daily market intelligence report
 
 The agent generates market intelligence views including:
 
@@ -85,6 +84,24 @@ CSV + Premium HTML Report
 The key design principle is **autonomous execution**.
 
 The system does not depend on a human manually pressing **Run** for every analysis cycle.
+
+---
+
+## ⏰ Report Timing & Data Availability
+
+The **S&P 500 Market Radar Agent** is scheduled to run automatically every day at **7:00 AM** using **Amazon EventBridge** to trigger an AWS Lambda function.
+
+### Reporting Methodology
+
+- ⏰ **Execution Time:** 7:00 AM (scheduled via Amazon EventBridge)
+- 📊 **Market Data:** Analyzes the **most recently completed U.S. trading session**
+- 📄 **Report Generation:** Produces a Daily Market Intelligence Report
+- 📧 **Delivery:** Automatically sends the report through Amazon SES
+- 🤖 **Operation:** Fully autonomous after deployment with no manual execution required.
+
+> > **Note:** The report is generated automatically at **7:00 AM** (via Amazon EventBridge) before the U.S. stock market opens. Therefore, it analyzes data from the **most recently completed U.S. trading session**, rather than intraday market activity.
+
+> The attached **Email Output.pdf** contains a Daily Market Intelligence Report generated automatically on **July 17, 2026, at 7:00 AM**, using market data from the **July 16, 2026 U.S. trading session**.
 
 ---
 
