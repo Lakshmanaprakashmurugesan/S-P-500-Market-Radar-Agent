@@ -101,18 +101,29 @@ The **S&P 500 Market Radar Agent** is scheduled to run automatically every day a
 ## 📂 Repository Structure
 
 ```text
-S&P500 MARKET RADAR AGENT
-│
+S&P500 MARKET RADAR AGENT/
 ├── market_radar_agent/
 │   └── Core autonomous market intelligence engine.py
-│
 ├── market_radar_output_screenshot/
 │   ├── Amazon EventBridge Active Cron Schedule Screenshot.png
 │   ├── Amazon SES Verified Identity Screenshot.png
-│   └── Email Output.pdf
-│
-└── README.md
+│   ├── Email Output.pdf
+│   ├── Email Snapshot 1 – Daily Market Report.png
+│   ├── Email Snapshot 2 – Daily Market Report.png
+│   ├── Email Snapshot 3 – Daily Market Report.png
+│   └── Email Snapshot 4 – Daily Market Report.png
+├── market_radar_output_video/
+│   └── Email Output Recording.mp4
+└── readme.md
 ```
+
+---
+
+## 🎬 Demo Video
+
+YouTube Demo: [S&P 500 Market Radar Agent Output Demo](https://youtu.be/Pp42sfW6mNQ)
+
+The video showcases the autonomous market intelligence report generation and Gmail delivery output.
 
 ---
 
